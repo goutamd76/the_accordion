@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#i1{
+  display: none;
+  width: 40px;
+}
+
+#i2{
+  display: none;
+  width: 40px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   }
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1;
+}
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}   
+
+.number, .question {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.number {
+  color: #787a91;
+}
+
+.item {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+}
+
+.content {
+  display: none;
+  grid-column: 2;
+}
+
+.content p {
+  margin-bottom: 24px;
+}
+
+.content ul {
+  color: #787a91;
+  margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+svg {
+  transform: rotate(-90deg);
+}
+
+.open {
+  border-top: 4px solid #0008c1;
+}
+
+.open .content {
+  display: block;
+}
+
+.open .number {
+  color: #000000;
+}
+
+.open svg {
+  transform: rotate(0deg);
+}
+
+
+
