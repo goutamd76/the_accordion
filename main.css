@@ -3,13 +3,22 @@
 #i1{
   display: none;
   width: 40px;
+  cursor:pointer;
 }
+
+/* #i1:hover { */
+/*   background-color: #ff0000; */
+/* } */
 
 #i2{
   display: none;
   width: 40px;
+  cursor:pointer;
 }
 
+/* #i2:hover { */
+/*     background-color: #ff0000; */
+/* } */
 
 * {
   margin: 0;
